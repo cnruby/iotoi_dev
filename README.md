@@ -8,8 +8,8 @@
 - [创建网站GitHub代码库](#创建网站GitHub代码库)
 - [部署GitHub](#部署GitHub)
 
-### 创建实例
-- 进入网站：[Simpler Paper](https://github.com/DhyanaChina/simpler-paper)
+### 安装软件
+- 软件网站：[Simpler Paper](https://github.com/DhyanaChina/simpler-paper)
 - 运行下面安装命令。
 
 ```shell
@@ -19,7 +19,7 @@ npm i -g simpler-paper
 ### 创建项目配置文件
 - 自动生成配置文件：paper.config.json
 - 运行下面命令项目配置文件，在命令执行过程中，需要输入<项目目录>，如本实例目录iotoi_dev。
-- 下面命令执行目录是项目目录，而不是进入下面项目目录，再执行命令，所有paper命令都是这样的。
+- 下面命令执行是项目根目录，而不是进入<项目目录>，再执行命令，所有[Simpler Paper](https://github.com/DhyanaChina/simpler-paper)命令都是这样的。
 
 ```shell
 paper init
@@ -29,7 +29,7 @@ paper init
 
 ```html  
 
--------------   project dir
+-------------   项目根目录
 |--- iotoi_dev
 |    |--- paper.config.json
 ```
@@ -46,7 +46,7 @@ paper build
 
 ```html  
 
--------------   project dir
+-------------   项目根目录
 |--- docs
 |--- iotoi_dev
 |    |--- paper.config.json
@@ -71,7 +71,7 @@ cp -rf docs/. iotoi/.
 
 ```html  
 
--------------   project dir
+-------------   项目根目录
 |--- docs
 |--- iotoi
 |--- iotoi_dev
