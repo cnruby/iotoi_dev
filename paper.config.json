@@ -6,7 +6,7 @@
 	"title":"simpler paper",
 	"docPath":"/",
 	"output":"docs",
-	"theme":"element",
+	"theme":"plain",
 	"miniMap":false,
 	"backToTop":false,
 	"indicator":true,
