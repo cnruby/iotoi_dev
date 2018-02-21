@@ -69,6 +69,13 @@ paper build
 cp -rf docs/. iotoi/.
 ```
 
+> 或者
+
+```shell
+paper build && cp -rf docs/. iotoi/.
+```
+
+
 ```html  
 
 -------------   项目根目录
