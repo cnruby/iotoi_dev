@@ -1,4 +1,4 @@
-> 文档生成网站的简单代码实例. [预览](http://cnruby.github.io/iotoi/)。将众多 Markdown 文件快速地生成结构化的网站，并部署至GitHub。
+> 文档生成网站的简单代码实例，[预览](http://cnruby.github.io/iotoi/)。将众多[Markdown](http://wowubuntu.com/markdown/)文件快速地生成结构化的网站，并部署至[GitHub](https://github.com)。
 
 ## 目录    
 - [安装软件](#安装软件)
@@ -54,8 +54,8 @@ paper build
 
 
 ### 开发项目代码
-- 使用网站[Simpler Paper](https://github.com/DhyanaChina/simpler-paper)下的实例
-- 使用上面构建命令
+- 使用网站[Simpler Paper](https://github.com/DhyanaChina/simpler-paper)下的实例代码，或者自己代码
+- 使用上面构建命令：
 
 ```shell
 paper build
@@ -63,7 +63,7 @@ paper build
 
 ### 创建网站GitHub代码库
 - 创建<GitHub网站目录>，如iotoi
-- 使用命令：
+- 使用下面复制命令：
 
 ```shell
 cp -rf docs/. iotoi/.
