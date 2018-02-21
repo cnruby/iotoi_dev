@@ -1,0 +1,14 @@
+{
+	"alias":{
+    	"quickstart": "getting started",
+    	"grammar": "grammar extend"
+	},
+	"title":"simpler paper",
+	"docPath":"/",
+	"output":"docs",
+	"theme":"element",
+	"miniMap":false,
+	"backToTop":false,
+	"indicator":true,
+	"expandAll":false
+}
